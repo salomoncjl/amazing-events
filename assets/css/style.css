@@ -1,0 +1,183 @@
+.imgloget{
+    width: 100px;
+}
+
+.cartitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.precio-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.preciocartita{
+    display: flex;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+    gap: 10px;
+}
+.searchcheck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(47, 45, 45);
+    min-height: 10vh;
+    display: flex;
+    margin-top: 20px;
+}
+main{
+    min-height: 84vh;
+}
+.logoredes{
+    display: flex;
+    width: 40px;
+    height: 32px;
+    margin: 10px;
+}
+.contenedorredes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+}
+.onlylogos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blanco{
+    color: white;
+    margin: 10px;
+}
+
+table, tr, th, td, tbody{
+    border: 3px solid black !important;
+    padding: 2px;
+    border-collapse: collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title{
+    background-color: rgb(193, 186, 186);
+    box-shadow: 0 0 10px rgb(56, 127, 172);
+    font-size: 20px;
+    color: black;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.cont-titulo{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.reporte{
+    border: 3px solid rgba(0, 0, 0, 0.76) ;
+    box-shadow: 0 0 50px rgb(239, 130, 14);
+    border-radius: 15px;
+    width: 320px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+}
+.maincontact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 84vh;
+}
+.mainstats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 84vh;
+}
+.imgdetails{
+    width: 274px;
+    height: 160px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid rgb(240, 33, 33);
+    box-shadow: 0 0 15px red;
+}
+.detailsmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    height: 70px;
+}
+.margindetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 3px solid black;
+    box-shadow: 0 0 15px yellow;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    max-width: 850px;
+    min-height: 400px;
+    margin: 10px;
+}
+.detailssize{
+    max-width: 400px;
+
+}
+.contenedorCheack{
+    display: flex;
+}
+.letranegrita{
+    font-weight: bolder;
+}
+.filtro{
+    display: none;
+}
+@media (min-width:190px) and (max-width:304px){
+    .onlylogos{
+        flex-direction: column;
+    }
+}
+@media (min-width:0px) and (max-width:280px){
+    .tabla{
+        display: none;
+    }
+}
+@media (min-width:190px) and (max-width:799px){
+    .paramedia{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    .contenedorCheack{
+        flex-direction: column;
+    }
+    .buscador{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .margindetails{
+        max-width: 450px;
+        margin: 20px;
+    }
+    .imgdetails{
+        margin: 15px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
